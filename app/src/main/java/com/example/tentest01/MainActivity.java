@@ -142,9 +142,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mqttManager=new MqttManager("115.28.209.116","AndroidAPPClient",mHandler);
         mqttManager.setUserName("bkrc");
         mqttManager.setPassWord("88888888");
-        mqttManager.setDevId("49ab87b81ddaa6d3");
-        mqttManager.setUptopic("device/49ab87b81ddaa6d3/up");
-        mqttManager.setDowntopic("device/49ab87b81ddaa6d3/down");
+        mqttManager.setDevId("096b56dfc4f1cbda");
+        mqttManager.setUptopic("device/096b56dfc4f1cbda/up");
+        mqttManager.setDowntopic("device/096b56dfc4f1cbda/down");
         mqttManager.GetDeviceStatus();
         mqttManager.Connect();
         if (mqttManager.Connect())

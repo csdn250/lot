@@ -19,15 +19,15 @@ import okhttp3.Response;
 
 
 public class MqttManager {
-    private String Uptopic        = "device/49ab87b81ddaa6d3/up";
-    private String Downtopic        = "device/49ab87b81ddaa6d3/down";
+    private String Uptopic        = "device/096b56dfc4f1cbda/up";
+    private String Downtopic        = "device/096b56dfc4f1cbda/down";
     private String content      = "Message from MqttPublishSample";
     private int qos             = 2;
     private String broker       ="tcp://115.28.209.116:1883";// "tcp://10.57.15.62:61613";
-    private String clientId     = "2def79e6cec9d38b67c246866857886b";
+    private String clientId     = "b86f18b531d0581b9bba30113ea21771copy";
     private String userName = "bkrc";
     private String passWord ="88888888";//password";
-    private String devId="49ab87b81ddaa6d3";
+    private String devId="096b56dfc4f1cbda";
     private MqttClient sampleClient=null;
     private boolean bConnected=false;
     private Handler mHandler=null;
